@@ -6,9 +6,27 @@
             "id": "eb5909dc-0df9-4cdc-992d-ece837483857",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "FermerMusique",
                     "type": "Button",
                     "id": "6fe6142e-3a4a-4066-90f7-60d6111b343f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FaireDisparaitre",
+                    "type": "Button",
+                    "id": "68ca68fb-f903-4392-ac6d-c3024242a58d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FaireApparaitre",
+                    "type": "Button",
+                    "id": "8153c053-3e85-466d-a1b3-b57522db8d78",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -19,11 +37,44 @@
                 {
                     "name": "",
                     "id": "da306388-dbf7-4905-8c78-88b76736a5d4",
-                    "path": "",
+                    "path": "<Keyboard>/f",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "FermerMusique",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7b768c7a-b6ce-4676-8230-aff83b5cb4c5",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FaireDisparaitre",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a411466e-d13e-409d-b22e-f177111a34ba",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FaireDisparaitre",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a31a47f3-93cb-4152-ba05-1b117ae24d74",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FaireApparaitre",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
