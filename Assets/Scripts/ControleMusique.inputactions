@@ -1,0 +1,34 @@
+{
+    "name": "ControleMusique",
+    "maps": [
+        {
+            "name": "PourMusique",
+            "id": "eb5909dc-0df9-4cdc-992d-ece837483857",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "6fe6142e-3a4a-4066-90f7-60d6111b343f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "da306388-dbf7-4905-8c78-88b76736a5d4",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
