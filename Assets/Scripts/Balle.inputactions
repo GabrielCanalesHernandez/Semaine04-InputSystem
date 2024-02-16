@@ -1,0 +1,34 @@
+{
+    "name": "Balle",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "1e4d4eed-fb62-45cd-a721-f0fd1ddcd678",
+            "actions": [
+                {
+                    "name": "ChangeLumiere",
+                    "type": "Button",
+                    "id": "02b2a79b-b7f8-4b23-bdc6-b8213584e050",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "65889def-6e33-43db-9d26-023ae7448c37",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeLumiere",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
