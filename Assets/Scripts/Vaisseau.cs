@@ -29,11 +29,36 @@ public class Vaisseau : MonoBehaviour
         Debug.Log(context.ReadValue<Vector2>()); //(1,0) (-1,0) (0,0)
     }
 
+//-----------------------------------------------------------------
+
     public void Bouge()
     {
         Vector2 _mouvement = new Vector2 (2,4);
         _rb.AddForce(_mouvementHorizontal*40,ForceMode.Force);
     }
+
+//-----------------------------------------------------------------
+
+    private void OnCollisionEnter(Collision other)
+    {
+        //Debug.Log(other.gameObject.tag);
+
+        if(other.gameObject.CompareTag("CubePoints")){
+            
+            Destroy(other.gameObject);
+            //_points++;
+            //Debug.Log(_points);
+        }
+
+        if(other.gameObject.CompareTag("DetruirePlayer")){
+
+            Destroy(gameObject);
+
+        }
+
+    }
+
+//-----------------------------------------------------------------
 
     public void GaucheDroite(InputAction.CallbackContext context)
     {
@@ -42,4 +67,5 @@ public class Vaisseau : MonoBehaviour
         _valeurX = _mouvementHorizontal.x;
         _valeurX = _mouvementHorizontal.y;
     }
+    
 }
